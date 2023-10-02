@@ -97,7 +97,7 @@ function Sidebar() {
                     {" "}
                     <div className="blueLine m-2 ms-0">
                       <img
-                        src=''
+                        src="/images/Active.png"
                         width="5px"
                         height="25px"
                       />
