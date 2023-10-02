@@ -87,7 +87,6 @@ function Sidebar() {
       <Container>
         <Row>
           <Col md={3}>
-            {" "}
             <div className="d-flex flex-column p-4">
               <h2 style={{ color: "blue" }}>Medico Sales</h2>
             </div>
@@ -98,45 +97,45 @@ function Sidebar() {
                     {" "}
                     <div className="blueLine m-2 ms-0">
                       <img
-                        src="/src/assets/images/Active.png"
+                        src=''
                         width="5px"
                         height="25px"
                       />
-                    </div>{" "}
+                    </div>
                   </Col>
                   <Col md={10}>
                     <div className="dashboard d-flex mb-3 ms-0 p-2 gap-3">
-                      <img src="/src/assets/images/Dashboard.png" />
+                      <img src= "/images/Dashboard.png" />
                       <span style={{ color: "blue" }}>Dashboard</span>
                     </div>
 
                     <div className="labtest d-flex mb-3 p-2 gap-3 ">
-                      <img src="/src/assets/images/clipboard-tick.png" />
+                      <img src="/images/clipboard-tick.png" />
                       <span>Lab Test</span>
                     </div>
 
                     <div className="appointment d-flex mb-3 p-2 gap-3">
-                      <img src="/src/assets/images/calendar-tick.png" />
+                      <img src="/images/calendar-tick.png" />
                       <span>Appointment</span>
                     </div>
 
                     <div className="medicineorder d-flex mb-3 p-2 gap-3">
-                      <img src="/src/assets/images/bag-tick-2.png" />
+                      <img src="/images/bag-tick-2.png" />
                       <span>Medicine Order</span>
                     </div>
 
                     <div className="message d-flex mb-3 p-2 gap-3">
-                      <img src="/src/assets/images/sms.png" />
+                      <img src="/images/sms.png" />
                       <span>Message</span>
                     </div>
 
                     <div className="payment d-flex mb-3 p-2 gap-3">
-                      <img src="/src/assets/images/empty-wallet.png" />
+                      <img src="/images/empty-wallet.png" />
                       <span>Payment</span>
                     </div>
 
                     <div className="setting d-flex mb-3 p-2 gap-3">
-                      <img src="/src/assets/images/setting-2.png" />
+                      <img src="/images/setting-2.png" />
                       <span>Setting</span>
                     </div>
                   </Col>
@@ -145,7 +144,7 @@ function Sidebar() {
             
             <div className="help d-flex gap-2 mt-5 ms-5">
               <img
-                src="/src/assets/images/Question.png"
+                src="/images/Question.png"
                 width="25px"
                 height="25px"
               />
