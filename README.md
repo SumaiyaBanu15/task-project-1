@@ -1,3 +1,7 @@
+This page design using React, React Bootstrap, Bootstrap, HTML, CSS and JavaScript.
+
+Code are in Src => App.jsx and Sidebar.jsx
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
