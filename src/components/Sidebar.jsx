@@ -162,13 +162,13 @@ function Sidebar() {
               <div className="d-flex flex-row justify-content-between">
                 <Card border="secondary mt-5 ms-4 w-50">
                   <div className="d-flex flex-row gap-3 bg-white p-3">
-                    <img src="/src/assets/images/search-normal.png" />
+                    <img src="/images/search-normal.png" />
                     <span> Search</span>
                   </div>
                 </Card>
 
                 <div className="notification mt-5 me-3">
-                  <img src="/src/assets/images/Notification.png" />
+                  <img src="/images/Notification.png" />
                 </div>
               </div>
 
@@ -226,7 +226,7 @@ function Sidebar() {
                   <thead>
                     <tr>
                       <th className="p-3">
-                        <img src="/src/assets/images/minus-square.png" />
+                        <img src="/images/minus-square.png" />
                       </th>
                       <th className="p-3">Invoice ID</th>
                       <th className="p-3">Date</th>
@@ -241,7 +241,7 @@ function Sidebar() {
                       return (
                         <tr key={i}>
                           <td className="p-3">
-                            <img src="/src/assets/images/minus-square.png" />
+                            <img src="/images/minus-square.png" />
                           </td>
                           <td className="p-3"><a href='#' style={{textDecoration:'none'}}>{e.invoiceId}</a> </td>
                           <td className="p-3">{e.date}</td>
