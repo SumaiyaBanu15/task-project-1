@@ -1,0 +1,18 @@
+@media screen and (max-width:768px){
+.sideheading{
+  justify-content: center;
+  align-items: center;
+}
+.sideoptions{
+  margin-left: auto;
+}
+.sideoptions,
+.tabledata{
+  display:flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.tabledata{
+  margin: 0;
+}
+}

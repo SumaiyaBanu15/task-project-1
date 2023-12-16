@@ -87,10 +87,10 @@ function Sidebar() {
       <Container>
         <Row>
           <Col md={3}>
-            <div className="d-flex flex-column p-4">
+            <div className="d-flex flex-column p-4 sideheading">
               <h2 style={{ color: "blue" }}>Medico Sales</h2>
             </div>
-            <div className="d-flex flex-column mb-3 mt-5">
+            <div className="d-flex flex-column mb-3 mt-5 sideoptions">
               <Container>
                 <Row>
                   <Col md={1}>
@@ -138,18 +138,20 @@ function Sidebar() {
                       <img src="/images/setting-2.png" />
                       <span>Setting</span>
                     </div>
+
+                    <div className="help d-flex gap-2 mt-5 ms-2">
+                      <img
+                        src="/images/Question.png"
+                        width="25px"
+                        height="25px"
+                      />
+                      <span> Help</span>
+                    </div>
                   </Col>
                 </Row>
               </Container>
             
-            <div className="help d-flex gap-2 mt-5 ms-5">
-              <img
-                src="/images/Question.png"
-                width="25px"
-                height="25px"
-              />
-              <span> Help</span>
-            </div>
+           
           </div>
           </Col>
 
@@ -221,7 +223,7 @@ function Sidebar() {
 
               {/* Table Section  */}
 
-              <div className="row m-4 bg-white border-spacing-3">
+              <div className="row m-4 bg-white border-spacing-3 tabledata">
                 <Table>
                   <thead>
                     <tr>
